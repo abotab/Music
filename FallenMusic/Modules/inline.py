@@ -77,7 +77,7 @@ async def inline_query_handler(_, query):
 ⎊ **القناة :** [{channel}]({channellink})
 
 <u>⎊ **بوآسـطه  {BOT_NAME}**</u>
-‌‌‏≪⊶⌯━‌‌‏♢ ⦓ ѕᴏᴜʀᴄᴇ ʀᴇғᴢ 𖤛 ⦔ ♢━‌‌‏⌯⊷≫"""
+‌‌‏ 𝘼𝙍𝘼𝘽𝙀𝙍 """
             answers.append(
                 InlineQueryResultPhoto(
                     photo_url=thumbnail,

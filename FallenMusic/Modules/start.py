@@ -52,7 +52,7 @@ async def fallen_st(_, message: Message):
                     link = result["link"]
                     published = result["publishedTime"]
                 searched_text = f"""
-‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓ ᥉ρᎥժᥱᖇ ⦔ 𖧊━‌‌‏⌯⊷≫
+‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓  𝘼𝙍𝘼𝘽𝙀𝙍 ⦔ 𖧊━‌‌‏⌯⊷≫
 ⎊ **تتبع المعلومات ** 
 
 ⎊ **العنوان :** {title}
@@ -64,13 +64,13 @@ async def fallen_st(_, message: Message):
 ⎊ **القناة :** [{channel}]({channellink})
 
 ⎊ بحث بواسطة {BOT_NAME}
-‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓ ᥉ρᎥժᥱᖇ ⦔ 𖧊━‌‌‏⌯⊷≫"""
+‌‌‏≪⊶⌯━‌‌‏𖧊 ⦓  𝘼𝙍𝘼𝘽𝙀𝙍⦔ 𖧊━‌‌‏⌯⊷≫"""
                 key = InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(text="يوتيوب", url=link),
                             InlineKeyboardButton(
-                                text="جࢪوب الدعم", url=config.SUPPORT_CHAT
+                                text="كروب الدعم", url=config.SUPPORT_CHAT
                             ),
                         ],
                     ]
