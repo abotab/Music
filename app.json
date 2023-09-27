@@ -1,7 +1,7 @@
 {
-    "name": "⦓ 𝐒𝐎𝐔𝐑𝐂𝐄 𝐑𝐄𝐅𝐙 𝐌𝐔𝐒𝐈𝐂🜪 ⦔",
+    "name": "⦓ 𝘼𝙍𝘼𝘽𝙀𝙍 ⦔",
     "description": "تنصيب بوتات الاغاني  للتشغيل في المكالمات الصوتية",
-    "logo": "https://graph.org/file/6e4359dc87a11152d5951.jpg",
+    "logo": "https://telegra.ph/file/580ead6dc560a03e9419f.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -32,7 +32,7 @@
         "required": true
       },
       "SESSION": {
-        "description": "ضـع جلسة البايروجرام احصل عليها من هنا @SESION_REFZ_BOT",
+        "description": "ضـع جلسة البايروجرام ",
         "value": "",
         "required": true
       },
@@ -42,8 +42,8 @@
         "required": true
       },
       "SUPPORT_CHAT": {
-        "description": "ضـع رابـط جـروب الـدعـم",
-        "value": "https://t.me/rev_fxx",
+        "description": "لا تغيرها أبداً ",
+        "value": "https://t.me/G_lRR",
         "required": false
       }
     },
