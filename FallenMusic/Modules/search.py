@@ -35,7 +35,7 @@ async def ytsearch(_, message: Message):
         pass
     try:
         if len(message.command) < 2:
-            return await message.reply_text("⎊ اكتب اللى عايز تبحث عنه 🙃")
+            return await message.reply_text("⎊ اكتب اللى تريد تبحث علي 🙃")
         query = message.text.split(None, 1)[1]
         m = await message.reply_text("⎊ جارٍ البحث...")
         results = YoutubeSearch(query, max_results=4).to_dict()
