@@ -39,7 +39,7 @@ buttons = InlineKeyboardMarkup(
             InlineKeyboardButton(text="▢", callback_data="end_cb"),
             ],
             [
-            InlineKeyboardButton("⦓ ‌‌‏‌‌‏‌‌‏ ♪𝐊𝐀𝐅♪ 𖤛⦔", url=f"https://t.me/Haider_1h1"),
+            InlineKeyboardButton("⦓ ‌‌‏‌‌‏‌‌‏ ♪المطور حمود سكيبه 😂🥲♪ 𖤛⦔", url=f"https://t.me/VIPS80"),
         ]
     ]
 )
