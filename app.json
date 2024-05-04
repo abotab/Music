@@ -1,7 +1,7 @@
 {
-    "name": "⦓ ‌‌‏‌‌‏‌‌‏ 𝘼𝙍𝘼𝘽𝙀𝙍 ⦔",
+    "name": "⦓ ‌‌‏‌‌‏‌‌‏ ♪𝐊𝐀𝐅♪ ⦔",
     "description": "تنصيب بوتات الاغاني  للتشغيل في المكالمات الصوتية",
-    "logo": "https://telegra.ph/file/c42e24eaebdba59eb680f.jpg",
+    "logo": "https://telegra.ph/file/c51b5298dad62f7b1de3f.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -43,7 +43,7 @@
       },
       "SUPPORT_CHAT": {
         "description": "لا تغيرها ابد ",
-        "value": "https://t.me/G_lRR",
+        "value": "https://t.me/jshwiej",
         "required": false
       }
     },
