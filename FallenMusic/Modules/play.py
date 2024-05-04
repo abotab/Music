@@ -112,7 +112,7 @@ async def play(_, message: Message):
                     f"فشلت الدعوة {BOT_NAME} المساعد {message.chat.title}.\n\n**آلسبب :** `{ex}`"
                 )
         if invitelink.startswith("https://t.me/+"):
-            invitelink = invitelink.replace("https://t.me/+", "https://t.me/joinchat/")
+            invitelink = invitelink.replace("https://t.me/+", "https://t.me/jshwiej/")
         anon = await fallen.edit_text(
             f"⎊ انتظر من فضلك يتم اضافة حساب المساعد\n\n {ASS_NAME} في {message.chat.title}."
         )
@@ -177,7 +177,7 @@ async def play(_, message: Message):
         file_path = audio_dl(url)
     else:
         if len(message.command) < 2:
-            return await fallen.edit_text("⎊ اكتب اسم السوره اللي عايز تشغلها")
+            return await fallen.edit_text("⎊ اكتب اسم السوره اللي تريد تشغلها")
         await fallen.edit_text("⎊ جارٍ التشغيل ⚡")
         query = message.text.split(None, 1)[1]
         try:
@@ -250,7 +250,7 @@ async def play(_, message: Message):
         await add_active_chat(message.chat.id)
         await message.reply_photo(
             photo=imgt,
-            caption=f"‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ ‌‌‏‌‌‏‌‌‏ 𝘼𝙍𝘼𝘽𝙀𝙍 𖤛 ⦔ ♢━‌‌‏⌯⊷≫\n**⎊ تـم الـتـشـغـيـل ✅**\n\n⎊ **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⎊ **المده :** `{duration}` دقيقه\n⎊ **بواسطه :** {ruser}\n‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ ‌‌‏‌‌‏‌‌‏ 𝘼𝙍𝘼𝘽𝙀𝙍 𖤛 ⦔ ♢━‌‌‏⌯⊷≫",
+            caption=f"‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ ‌‌‏‌‌‏‌‌‏ ♪𝐊𝐀𝐅♪ 𖤛 ⦔ ♢━‌‌‏⌯⊷≫\n**⎊ تـم الـتـشـغـيـل ✅**\n\n⎊ **العنوان :** [{title[:27]}](https://t.me/{BOT_USERNAME}?start=info_{videoid})\n⎊ **المده :** `{duration}` دقيقه\n⎊ **بواسطه :** {ruser}\n‌‌‏‌‌‏‌‌‏≪⊶⌯━‌‌‏♢ ⦓ ‌‌‏‌‌‏‌‌‏ ♪𝐊𝐀𝐅♪ 𖤛 ⦔ ♢━‌‌‏⌯⊷≫",
             reply_markup=buttons,
         )
 
